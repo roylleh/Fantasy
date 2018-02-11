@@ -1,0 +1,180 @@
+@import "reset.css";@import "grid_24.css";@import "superfish.css";
+article,aside,audio,canvas,command,datalist,details,embed,figcaption,figure,footer,header,hgroup,keygen,meter,nav,output,progress,section,source,video{display:block}mark,rp,rt,ruby,summary,time{display:inline}
+/* Global properties ======================================================== */
+html {width:100%}
+
+body {font-family:Arial, Helvetica, sans-serif; font-size:13px; line-height:21px; color:#acacac; min-width:980px; background:#f8f8f8;}
+.main {width:960px;padding:0;margin:0 auto;}
+/*********************************fonts*************************************/
+p {margin-bottom:21px}
+.p2{}
+.p3{}
+.p4{}
+.p5{}
+.p6{}
+
+.reg {text-transform:uppercase}
+.f_left {float:left}
+.f_right {float:right}
+.align_right {text-align:right}
+.align_center {text-align:center}
+
+.italic{font-style:italic}
+.letter {letter-spacing:-1px}
+
+/*********************************CLASSES**********************************/
+.m_bottom_zero{ margin-bottom:0 !important;}
+.m_left_zero{ margin-left:0 !important;}
+.p_bottom_zero{ padding-bottom:0 !important;}
+.p_left_zero{ padding-left:0 !important;}
+
+.clear {clear:both;width:100%;line-height:0;font-size:0;}
+.wrapper {width:100%;overflow:hidden}
+.extra_wrapper{ overflow:hidden;}
+.container{width:100%}
+.extra_last, .last{ margin-bottom:0 !important; padding-bottom:0 !important;}
+.extra_last{ border:none !important; background:none !important;}
+
+/*==================================== Links ======================================================== */
+a {color:#acacac;outline:none; text-decoration:none; cursor:pointer;}
+a:hover{ color:#f7355a; text-decoration:none;}
+.button{ display:inline-block; box-shadow: 1px 1px 1px #c4c4c4; padding:8px 18px 9px; margin: 23px 0 3px 0; font-size: 14px; line-height: 17px; color:#fff; background:url(../images/button.png) repeat-x #121212; text-transform:uppercase;}
+.button:hover{ background:#f7355a; color:#FFFFFF;}
+
+.but_ind{ margin-top:19px}
+/*================================>> hovers <<========================================*/
+.box .wrapper a span, .list3 a, .button,footer .social a img,.list1 a, .list2 a{-webkit-transition: all 0.3s ease;-moz-transition: all 0.3s ease;-o-transition: all 0.3s ease;transition: all 0.3s ease;}
+
+/*********************************Displays*************************************/
+.block{ display:block;}
+.inline-block{ display:inline-block;}
+
+/*********************************header*************************************/
+
+header { text-align:center; padding:68px 6px 0 0;}
+header h1{width:340px; margin: 0 auto; font-weight:normal;}
+header h1 a {display:block;width:340px;height:51px;background:url(../images/logo.png) 0 0 no-repeat; text-decoration:none; text-indent:-9999px;}
+header h1 span{font-size: 13px; line-height: 16px; color:#797878; font-family:Arial, Helvetica, sans-serif; text-transform:uppercase; display:inline-block; margin-top:6px;}
+
+/*================================>> Global blolcks <<========================================*/
+.block1{ background:#f8f8f8; min-height:250px;}
+.block2{ background:url(../images/body_bg.jpg) 50% 0 repeat; min-height:517px; box-shadow: inset 0 0px 6px #c4c6ca;}
+.bg_fff{ background:#FFF !important;}
+.block3{}
+
+/*********************************content*************************************/
+#content {padding:54px 0px 20px 0px; position:relative; z-index:1;}
+.cont_pad{padding:35px 0 0 0 !important;}
+
+/*================================>> LISTS <<========================================*/
+.list1{}
+.list1 li{margin-bottom:9px;}
+.list1 a{ background:url(../images/marker1.png) 0 -20px no-repeat;  display:block; padding:4px 0 5px 10px;font-size: 10px; line-height: 12px; color:#757575; text-transform:uppercase;}
+.list1 a:hover{ background-position: 13px 8px; background-color:#f7355a; color:#FFFFFF; padding-left:21px;}
+.list2 a{ background:url(../images/marker1.png) 0 -20px no-repeat;  display:inline-block; padding:4px 10px 5px 10px;font-size: 10px; line-height: 12px; color:#757575; text-transform:uppercase;}
+.list2 li{ margin-bottom:3px;}
+.list2 a:hover{ background-position: 13px 7px; background-color:#f7355a; color:#FFFFFF; padding-left:21px;}
+.list3 a{ background:url(../images/marker1.png) 0 -20px no-repeat;  display:inline-block; padding:4px 10px 5px 12px;font-size: 10px; line-height: 12px; color:#757575; text-transform:uppercase;}
+.list3 li{ margin-bottom:5px; background:url(../images/list3_li.png) 0 bottom repeat-x; padding-bottom:4px;}
+.list3 a:hover{ background-position: 13px 8px; background-color:#f7355a; color:#FFFFFF; padding-left:21px;}
+
+/*================================>> H <<========================================*/
+h4{ font-weight:normal;}
+h2{font-size: 24px; line-height: 29px; color:#212121; font-family:"Times New Roman", Times, serif;}
+h3{font-size: 19px; line-height: 23px; color:#a5a5a5; font-family:"Times New Roman", Times, serif;}
+h3.ind{ margin-bottom:22px;}
+h3.ind1{ margin-bottom:27px;}
+h3.ind2{ margin-bottom:20px;}
+h3,h2{ text-transform:uppercase; font-weight:bold;}
+/*================================>> GOOGLE FONTS  <<========================================*/
+@font-face {
+  font-family: 'Varela';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Varela'), url(https://themes.googleusercontent.com/static/fonts/varela/v4/_yYHMt_E4smqfVTA22m7TQ.woff) format('woff');
+}
+.sf-menu>li>a{font-family: 'Varela', sans-serif;}
+
+/*********************************page_1*************************************/
+.extra_container{ overflow:hidden;}
+.extra_container>figure{ float:left;}
+.extra_container>div{ float:right;}
+
+.gallery1 .col-1{width:317px;}
+.gallery1 .box{width:1902px;height:441px;}
+.gallery1 .col-2{width:316px;}
+.gallery1 .col-3{width:317px;}
+
+/*********************************page_2*************************************/
+.map_wrapper,.product>figure, .services>figure,.harmony>figure,.img_wrap{ display:inline-block;border: 1px solid #eeeeee; background:#fff; padding:4px;}
+
+.black{font-size: 16px; line-height: 21px; color:#212121; display:inline-block; margin-bottom:1px;}
+
+strong{ color:#757575;}
+
+.indent, .stripe{ background:url(../images/vert_stripe.png) repeat-y; padding:3px 0 13px 0;}
+.indent1{padding:3px 0 13px 0;}
+.stripe_box1{ background-position: 445px 0;}
+.stripe_box2{ background-position: 645px 0;}
+
+.harmony{ margin-bottom:28px;}
+.harmony>div{width:339px; padding:5px 0 0 0;}
+.harmony>figure{}
+
+.title{font-size: 18px; line-height: 21px; color:#8c8b8b; font-family:"Times New Roman", Times, serif; margin-bottom:7px;}
+/*********************************page_3*************************************/
+.services{ margin-bottom:20px}
+.services>div{width:434px;}
+.services>figure{}
+.services p{ margin-bottom:13px;}
+
+.scrool_box{ overflow:auto; height:405px;}
+/*********************************page_4*************************************/
+.product{}
+.product>figure{}
+.product>div{width:266px;}
+.prod_box{ margin-bottom:21px;}
+/*********************************page_5*************************************/
+
+/* Contact form */
+#contact-form {padding:0px 0 0 0;}
+#contact-form .success {width:246px; margin-bottom:20px; padding:10px; position:absolute;}
+#contact-form textarea, #contact-form input {margin:0;font-size:13px; border:1px solid #d8d8d8; color:#acacac; padding:8px 8px 7px;outline:none; position:relative; font-family:Arial, Helvetica, sans-serif;background:#fff;}
+#contact-form input {width:364px;}
+#contact-form textarea {overflow:auto; width:452px; height:126px;resize:vertical; float:left; margin: 0 0 0 0;}	
+#contact-form label {display:block; min-height:40px; overflow:hidden;}	
+#contact-form label.message { display:block; padding-bottom:0; }
+#contact-form .button {margin-left:5px;}	
+#contact-form .error, #contact-form .empty, #contact-form .success {display:none;}	
+#contact-form .error, #contact-form .empty {text-align:left; color:red; font-size:11px; clear:both;}
+#contact-form .buttons2 {overflow:hidden;text-align:right; position:relative; clear:both; padding-top:23px;}
+#contact-form .buttons2 a {
+	cursor:pointer;
+	margin-top:0;
+	text-align:center;
+}
+#contact-form span{ display:block; margin: 0px 0 0 5px;}
+
+.map_wrapper{overflow:hidden;margin-bottom:22px;}
+#map_canvas {
+    width:380px;
+	height:209px;
+}
+.adress{}
+.adress span{ display:inline-block; width:69px;}
+.adress dt{color:#757575;}
+.adress a{display:inline-block; margin: 2px 0 0 6px; font-size:10px; text-transform:uppercase; color:#f7355a;}
+.link{font-size: 10px; text-transform:uppercase; color:#f7355a; display:inline-block; margin: -3px 0 0 0;}
+.link:hover, .adress a:hover{ text-decoration:underline;}
+/****************************footer************************/
+footer {padding:39px 0 26px;background:none;}
+footer .social{ overflow:hidden;margin: 0 0 0 0;}
+footer .social a{ display:block; float:left;width:37px;height:38px; overflow:hidden; margin-right:4px;}
+footer .social a:first-child{margin: 0 0 0 0;}
+footer .social a:hover img{ margin-top:-39px;}
+footer .social h4{ margin-bottom:6px;}
+footer h4,footer strong{ font-weight:bold; color:#111111; text-transform:uppercase; margin-bottom:21px; font-size:13px !important;}
+footer .privacy, footer .privacy a{font-size: 12px; line-height: 18px; color:#585858; text-transform:uppercase;}
+footer .privacy{padding:2px 0 63px 0;}
+footer .privacy a:hover{color:#f7355a;}
+#easyTooltip {font-size:12px;background:#fff;padding:3px 5px;border:1px solid #000}

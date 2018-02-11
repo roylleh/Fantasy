@@ -1,0 +1,114 @@
+.jspContainer
+{
+	position: relative;
+	width:585px !important;
+}
+
+.jspPane
+{
+	position: absolute;
+}
+
+.jspVerticalBar
+{
+	position: absolute;
+	top: 0px;
+	right: -3px;
+	width: 16px;
+}
+
+.jspVerticalBar *,
+.jspHorizontalBar *
+{
+	margin: 0;
+	padding: 0;
+}
+
+.jspCap
+{
+	display: none;
+}
+
+.jspHorizontalBar .jspCap
+{
+	float: left;
+}
+
+.jspTrack
+{
+	background:url(../images/track.png) no-repeat;
+	width:15px;
+	padding:0px 1px 0px 2px;
+	position: relative;
+	margin: 0 0 0 0;
+}
+
+.jspDrag
+{
+	background:url(../images/scrool_drag.png) no-repeat;
+	width:13px;
+	position: relative;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+}
+
+.jspHorizontalBar .jspTrack,
+.jspHorizontalBar .jspDrag
+{
+	float: left;
+	height: 100%;
+	
+}
+
+.jspArrow
+{
+	background: #50506d;
+	text-indent: -20000px;
+	display: block;
+	cursor: pointer;
+}
+
+.jspArrow.jspDisabled
+{
+	cursor: default;
+	background: #80808d;
+}
+
+.jspVerticalBar .jspArrow
+{
+	height: 16px;
+}
+
+.jspHorizontalBar .jspArrow
+{
+	width: 16px;
+	float: left;
+	height: 100%;
+}
+
+.jspVerticalBar .jspArrow:focus
+{
+	outline: none;
+}
+
+.jspCorner
+{
+	background: #eeeef4;
+	float: left;
+	height: 100%;
+}
+
+*+html .scroll-pane li{display:inline;}
+
+.scroll-pane .last {margin-right:0px;}
+.scroll-pane
+{
+	width: 100%;
+	overflow: auto;
+	
+}
+.horizontal-only
+{
+	height: auto;
+}
